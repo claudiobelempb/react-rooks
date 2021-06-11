@@ -4,12 +4,14 @@ import './App.css';
 // import { App } from './App';
 // import { UseState } from './UseState';
 // import { UseEffect } from './UseEffect';
-import { UseCallback } from './UseCallback';
+// import { UseCallback } from './UseCallback';
+// import { UseMemoA } from './UseMemoA';
+import { UseRef } from './UseRef';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseCallback />
+    <UseRef />
   </React.StrictMode>,
   document.getElementById('root'),
 );
