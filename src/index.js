@@ -6,12 +6,13 @@ import './App.css';
 // import { UseEffect } from './UseEffect';
 // import { UseCallback } from './UseCallback';
 // import { UseMemoA } from './UseMemoA';
-import { UseRef } from './UseRef';
+// import { UseRef } from './UseRef';
+import { UseContext } from './UseContext';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseRef />
+    <UseContext />
   </React.StrictMode>,
   document.getElementById('root'),
 );
