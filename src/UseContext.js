@@ -1,13 +1,13 @@
 //import P from 'prop-types';
-import { StateContextProvide } from './contexts/stateContext';
+import { ContextDefaultProvide } from './contexts/ContextDefault';
 import { Div } from './components/Div';
 import './App.css';
 
 const UseContext = () => {
   return (
-    <StateContextProvide>
+    <ContextDefaultProvide>
       <Div />
-    </StateContextProvide>
+    </ContextDefaultProvide>
   );
 };
 

@@ -1,8 +1,8 @@
 import { useContext } from 'react';
-import { StateContext } from '../contexts/stateContext';
+import { ContextDefault } from '../../contexts/ContextDefault';
 
 const H1 = () => {
-  const theContext = useContext(StateContext);
+  const theContext = useContext(ContextDefault);
   const {
     stateProvide: { title, counter },
   } = theContext;
