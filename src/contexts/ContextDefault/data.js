@@ -1,5 +1,5 @@
 const data = {
-  title: 'title article',
+  title: 'Blá Blá Blá',
   body: 'body article',
   counter: 0,
 };

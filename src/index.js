@@ -7,12 +7,13 @@ import './App.css';
 // import { UseCallback } from './UseCallback';
 // import { UseMemoA } from './UseMemoA';
 // import { UseRef } from './UseRef';
-import { UseContext } from './UseContext';
+// import { UseContext } from './UseContext';
+import { UseReducer } from './UseReducer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseContext />
+    <UseReducer />
   </React.StrictMode>,
   document.getElementById('root'),
 );
