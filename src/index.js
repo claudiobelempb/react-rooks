@@ -8,12 +8,13 @@ import './App.css';
 // import { UseMemoA } from './UseMemoA';
 // import { UseRef } from './UseRef';
 // import { UseContext } from './UseContext';
-import { UseReducer } from './UseReducer';
+// import { UseReducer } from './UseReducer';
+import { UseReducerUseContext } from './hooks/UseReducerUseContext';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseReducer />
+    <UseReducerUseContext />
   </React.StrictMode>,
   document.getElementById('root'),
 );
