@@ -9,12 +9,13 @@ import './App.css';
 // import { UseRef } from './UseRef';
 // import { UseContext } from './UseContext';
 // import { UseReducer } from './UseReducer';
-import { UseReducerUseContext } from './hooks/UseReducerUseContext';
+// import { UseReducerUseContext } from './hooks/UseReducerUseContext';
+import { CreateHooks } from './hooks/CreateHooks';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseReducerUseContext />
+    <CreateHooks />
   </React.StrictMode>,
   document.getElementById('root'),
 );
